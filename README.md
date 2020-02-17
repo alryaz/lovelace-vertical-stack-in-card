@@ -1,3 +1,5 @@
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
+
 # Vertical Stack In Card
 Vertical Stack In Card allows you to group multiple cards in one card.
 
@@ -27,8 +29,8 @@ mv vertical-stack-in-card.js /config/www/
 
 ```yaml
 resources:
-  - url: /local/vertical-stack-in-card.js?v=0.1.3
-    type: js
+  - url: /local/vertical-stack-in-card.js
+    type: module
 ```
 
 3. Add a custom card in your `ui-lovelace.yaml`
